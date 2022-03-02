@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  
+  bp-frontend:
+    build: ./docker/node
+    container_name: node-playground
+    volumes:
+      - ./bp-frontend:/home/node/app
+    ports:
+      - 3000:3000
+    tty: true
+    restart: unless-stopped
+
+  bp-backend:
+    build: ./docker/php
+    container_name: php-playground
+    volumes: 
+      - ./bp-backend:/app
+    ports:
+      - 8000:8000
+    tty: true
+    restart: unless-stopped
+
+  database:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=boilerplate
+    volumes:
+      - bp-volume:/var/lib/postgresql/data
+  
+  adminer:
+    image: adminer
+    restart: always
+    ports: 
+      - 8080:8080
+
+volumes:
+  bp-volume:
