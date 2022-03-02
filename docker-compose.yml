@@ -4,7 +4,7 @@ services:
   
   bp-frontend:
     build: ./docker/node
-    container_name: node-playground
+    container_name: bp-frontend-playground
     volumes:
       - ./bp-frontend:/home/node/app
     ports:
@@ -14,7 +14,7 @@ services:
 
   bp-backend:
     build: ./docker/php
-    container_name: php-playground
+    container_name: bp-backend-playground
     volumes: 
       - ./bp-backend:/app
     ports:
@@ -24,6 +24,7 @@ services:
 
   database:
     image: postgres
+    container_name: bp-database
     restart: always
     environment:
       - POSTGRES_PASSWORD=123456
@@ -33,6 +34,7 @@ services:
   
   adminer:
     image: adminer
+    container_name: bp-adminer
     restart: always
     ports: 
       - 8080:8080

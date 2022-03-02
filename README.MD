@@ -16,14 +16,46 @@ Ideal para desenvolvimento de aplicações CRUD, sites com painel de controle, e
 - Documentação e padronização de código
 - Testes automatizados
 
+## Instalação
+---
+
+copie o arquivo .env
+
+```shell
+cp bp-backend/.env.example bp-backend/.env
+```
+
+inicie o docker
+
+```shell
+docker-compose up --build
+```
+
+> Após feita a instalação, acesse http://localhost:8000, clique em "Generate app key" para concluir a instalação do backend.
+
 ## Comandos básicos
+---
 
 Iniciar todas as aplicações do projeto
-```shel
+
+```shell
 docker-compose up -d
 ```
 
 Parar todas as aplicações do projeto
-```shel
+
+```shell
 docker-compose down
+```
+
+Monitore os logs das aplicações
+
+```shell
+docker logs -f [nome do conteiner]
+```
+
+Acesse o contêiner da aplicação
+
+```shell
+docker exec -it [nome do conteiner] bash
 ```
