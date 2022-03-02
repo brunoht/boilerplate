@@ -1,4 +1,4 @@
-### 1.0.0
+### v1.0.0
 
 - Added docs folder and references
 - Created bp-backend with clean Laravel installation
