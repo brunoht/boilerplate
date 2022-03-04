@@ -1,4 +1,5 @@
 bp-backend/node_modules
+bp-backend/Modules
 bp-frontend/node_modules
 bp-backend/public/hot
 bp-backend/public/storage

@@ -10,6 +10,7 @@
 - [vue-the-mask](https://github.com/vuejs-tips/vue-the-mask)
 - [v-money](https://github.com/vuejs-tips/v-money)
 - [Moment.js](https://momentjs.com/)
+- [Laravel Modules](https://nwidart.com/laravel-modules/v6/introduction)
 
 ## Patterns
 
