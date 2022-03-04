@@ -59,3 +59,13 @@ Acesse o contêiner da aplicação
 ```shell
 docker exec -it [nome do conteiner] bash
 ```
+
+### Nomes dos contêineres
+
+- bp-frontend-playground
+- bp-backend-playground
+- bp-database
+- bp-adminer
+
+## Naming convention
+Because we are autoloading the modules using psr-4, we strongly recommend using StudlyCase convention.
