@@ -6,3 +6,6 @@
 - Created docker and docker compose files
 - Created Changelog file
 - Added README files with installation instructions
+- Added modular ability to bp-backend
+- Created a Pitch documentation
+- Added business viability documentation
