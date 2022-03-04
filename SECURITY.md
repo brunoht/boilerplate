@@ -4,4 +4,4 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability within Boilerplate, please send an email to Bruno Henrique at contato@lohl.com.br. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Boilerplate, please send an email to Bruno Henrique at bruno@lohl.com.br. All security vulnerabilities will be promptly addressed.
