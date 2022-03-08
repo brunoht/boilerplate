@@ -16,6 +16,11 @@ Ideal para desenvolvimento de aplicações CRUD, sites com painel de controle, e
 - Documentação e padronização de código
 - Testes automatizados
 
+## Pré Requisitos
+
+- Docker
+- GIT
+
 ## Instalação
 ---
 
