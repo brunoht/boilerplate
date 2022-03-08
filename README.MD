@@ -74,3 +74,7 @@ docker exec -it [nome do conteiner] bash
 
 ## Naming convention
 Because we are autoloading the modules using psr-4, we strongly recommend using StudlyCase convention.
+
+### Universe
+
+On this first viersion (v1.*) we'll tribute Nintendo SNES console. All project, versioning, branch and sprints must be named from Nintendo World (prefered a game name from SNES console).
